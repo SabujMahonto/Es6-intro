@@ -12,7 +12,7 @@
   function addBackgroundColor(){
      const friends =  document.getElementsByClassName('friend');
             for(const friend of friends){
-                  friend.style.backgroundColor = 'green';
+                  friend.style.backgroundColor = 'orange';
             }
 
      }
@@ -31,6 +31,8 @@ document.getElementById('add-friend').addEventListener('click', function(){
             container.appendChild(friendDiv)
     
 })
+
+
 
 
      
